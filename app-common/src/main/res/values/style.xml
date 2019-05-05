@@ -1,144 +1,144 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <style name="Joy">
+    <style name="Whaless">
     </style>
     
     <!-- 目前字体色总共三种： Default: text_color_grey、 Light: text_color_grey_light、Primary: @color/colorPrimary -->
-    <style name="Joy.TextAppearance" parent="TextAppearance.AppCompat">
+    <style name="Whaless.TextAppearance" parent="TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/dimen_text_middle</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small">
+    <style name="Whaless.TextAppearance.Small">
         <item name="android:textSize">@dimen/dimen_text_small</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small.White">
+    <style name="Whaless.TextAppearance.Small.White">
         <item name="android:textColor">@android:color/white</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small.Neutral">
+    <style name="Whaless.TextAppearance.Small.Neutral">
         <item name="android:textColor">@color/colorTextGreyNeutral</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small.Primary">
+    <style name="Whaless.TextAppearance.Small.Primary">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small.Light">
+    <style name="Whaless.TextAppearance.Small.Light">
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small2" parent="TextAppearance.AppCompat">
+    <style name="Whaless.TextAppearance.Small2" parent="TextAppearance.AppCompat">
         <item name="android:textSize">@dimen/dimen_text_small2</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small2.Primary">
+    <style name="Whaless.TextAppearance.Small2.Primary">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small2.Light">
+    <style name="Whaless.TextAppearance.Small2.Light">
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     
-    <style name="Joy.TextAppearance.Small2.White">
+    <style name="Whaless.TextAppearance.Small2.White">
         <item name="android:textColor">@android:color/white</item>
     </style>
     
-    <style name="Joy.TextAppearance.Middle">
+    <style name="Whaless.TextAppearance.Middle">
         <item name="android:textSize">@dimen/dimen_text_middle</item>
     </style>
     
-    <style name="Joy.TextAppearance.Middle.White">
+    <style name="Whaless.TextAppearance.Middle.White">
         <item name="android:textColor">@android:color/white</item>
     </style>
     
-    <style name="Joy.TextAppearance.Middle.Primary">
+    <style name="Whaless.TextAppearance.Middle.Primary">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
     
-    <style name="Joy.TextAppearance.Middle.Light">
+    <style name="Whaless.TextAppearance.Middle.Light">
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     
     <!-- 中色 -->
-    <style name="Joy.TextAppearance.Middle.Neutral">
+    <style name="Whaless.TextAppearance.Middle.Neutral">
         <item name="android:textColor">@color/colorTextGreyNeutral</item>
     </style>
     
-    <style name="Joy.TextAppearance.Large">
+    <style name="Whaless.TextAppearance.Large">
         <item name="android:textSize">@dimen/dimen_text_large</item>
     </style>
     
-    <style name="Joy.TextAppearance.Large.White">
+    <style name="Whaless.TextAppearance.Large.White">
         <item name="android:textColor">@android:color/white</item>
     </style>
     
-    <style name="Joy.TextAppearance.Large.Primary">
+    <style name="Whaless.TextAppearance.Large.Primary">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
     
-    <style name="Joy.TextAppearance.Large.Light">
+    <style name="Whaless.TextAppearance.Large.Light">
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     
-    <style name="Joy.TextAppearance.XLarge">
+    <style name="Whaless.TextAppearance.XLarge">
         <item name="android:textSize">@dimen/dimen_text_xlarge</item>
     </style>
     
-    <style name="Joy.TextAppearance.XLarge.White">
+    <style name="Whaless.TextAppearance.XLarge.White">
         <item name="android:textColor">@android:color/white</item>
     </style>
     
-    <style name="Joy.TextAppearance.XLarge.Primary">
+    <style name="Whaless.TextAppearance.XLarge.Primary">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
     
-    <style name="Joy.TextAppearance.XLarge.Light">
+    <style name="Whaless.TextAppearance.XLarge.Light">
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     
-    <style name="Joy.TextAppearance.XXLarge">
+    <style name="Whaless.TextAppearance.XXLarge">
         <item name="android:textSize">@dimen/dimen_text_xxlarge</item>
     </style>
     
-    <style name="Joy.TextAppearance.XXLarge.White">
+    <style name="Whaless.TextAppearance.XXLarge.White">
         <item name="android:textColor">@android:color/white</item>
     </style>
     
-    <style name="Joy.TextAppearance.XXLarge.Primary">
+    <style name="Whaless.TextAppearance.XXLarge.Primary">
         <item name="android:textColor">@color/colorPrimary</item>
     </style>
     
-    <style name="Joy.TextAppearance.XXLarge.Light">
+    <style name="Whaless.TextAppearance.XXLarge.Light">
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     
-    <style name="Joy.Widget">
+    <style name="Whaless.Widget">
     </style>
     
-    <style name="Joy.Widget.Button" parent="Widget.AppCompat.Button">
+    <style name="Whaless.Widget.Button" parent="Widget.AppCompat.Button">
         <item name="android:background">@drawable/draw_selector_background_light_default</item>
     </style>
     
-    <style name="Joy.Widget.Button.Default" parent="Widget.AppCompat.Button">
+    <style name="Whaless.Widget.Button.Default" parent="Widget.AppCompat.Button">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/size_45</item>
-        <item name="android:textAppearance">@style/Joy.TextAppearance.Middle.White</item>
+        <item name="android:textAppearance">@style/Whaless.TextAppearance.Middle.White</item>
         <item name="android:background">@drawable/draw_selector_background_light_default</item>
         <item name="android:gravity">center</item>
     </style>
     
-    <style name="Joy.Widget.Button.Rectangle" parent="Widget.AppCompat.Button.Borderless">
+    <style name="Whaless.Widget.Button.Rectangle" parent="Widget.AppCompat.Button.Borderless">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/size_45</item>
         <item name="android:background">@drawable/draw_selector_background_light_rectangle</item>
         <item name="android:gravity">center</item>
     </style>
     
-    <style name="Joy.Widget.Dialog"/>
+    <style name="Whaless.Widget.Dialog"/>
     
-    <style name="Joy.Widget.Dialog.Transparent">
+    <style name="Whaless.Widget.Dialog.Transparent">
         <item name="android:windowFrame">@null</item><!--边框-->
         <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
         <item name="android:windowIsTranslucent">false</item><!--半透明-->
@@ -147,7 +147,7 @@
         <item name="android:backgroundDimEnabled">false</item><!--模糊-->
     </style>
     
-    <style name="Joy.Widget.Dialog.Message" parent="Base.Theme.AppCompat.Dialog">
+    <style name="Whaless.Widget.Dialog.Message" parent="Base.Theme.AppCompat.Dialog">
         <!-- Used for the buttons -->
         <item name="colorAccent">@color/colorPrimary</item>
         <item name="android:background">@android:color/white</item>
@@ -161,12 +161,12 @@
         <item name="windowMinWidthMinor">70%</item>
     </style>
     
-    <style name="Joy.Widget.Input"/>
+    <style name="Whaless.Widget.Input"/>
     
-    <style name="Joy.Widget.Input.Default">
+    <style name="Whaless.Widget.Input.Default">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/size_45</item>
-        <item name="android:textAppearance">@style/Joy.TextAppearance.Middle</item>
+        <item name="android:textAppearance">@style/Whaless.TextAppearance.Middle</item>
         <item name="android:textColorHint">#afb3bb</item>
         <item name="android:background">@drawable/draw_shape_round_rectangle_solid_white</item>
         <item name="android:gravity">center_vertical</item>
@@ -174,43 +174,43 @@
         <item name="android:singleLine">true</item>
     </style>
     
-    <style name="Joy.Widget.Line">
+    <style name="Whaless.Widget.Line">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/size_1</item>
         <item name="android:background">@color/colorLineGrey</item>
     </style>
     
-    <style name="Joy.Widget.Line.Vertical">
+    <style name="Whaless.Widget.Line.Vertical">
         <item name="android:layout_width">@dimen/size_1</item>
         <item name="android:layout_height">match_parent</item>
     </style>
     
-    <style name="Joy.Widget.Material"/>
+    <style name="Whaless.Widget.Material"/>
     
-    <!--<style name="Joy.Widget.Material.Dialog" parent="Material.App.Dialog.Simple.Light">-->
+    <!--<style name="Whaless.Widget.Material.Dialog" parent="Material.App.Dialog.Simple.Light">-->
     <!--<item name="android:layout_width">match_parent</item>-->
     <!--</style>-->
     
-    <style name="Joy.Widget.Text"/>
+    <style name="Whaless.Widget.Text"/>
     
-    <style name="Joy.Widget.Text.Single">
+    <style name="Whaless.Widget.Text.Single">
         <item name="android:singleLine">true</item>
     </style>
     
-    <style name="Joy.Widget.Text.Double">
+    <style name="Whaless.Widget.Text.Double">
         <item name="android:singleLine">false</item>
         <item name="android:maxLines">2</item>
         <item name="android:ellipsize">end</item>
     </style>
     
-    <style name="Joy.Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
+    <style name="Whaless.Widget.Toolbar" parent="Widget.AppCompat.Toolbar">
         <item name="android:id">@id/toolbar</item>
         <item name="actionBarSize">?attr/actionBarSize</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:minHeight">@dimen/size_45</item>
         <item name="android:background">@color/colorPrimary</item>
-        <item name="titleTextAppearance">@style/Joy.TextAppearance.Middle.White</item>
+        <item name="titleTextAppearance">@style/Whaless.TextAppearance.Middle.White</item>
         <item name="titleMargins">0dp</item>
         <item name="maxButtonHeight">?attr/actionBarSize</item>
         <item name="actionOverflowButtonStyle">@null</item>
@@ -220,22 +220,22 @@
         <!--<item name="navigationIcon">@drawable/draw_vector_navigate_arrow</item>-->
     </style>
     
-    <style name="Joy.Widget.Toolbar.Default"/>
+    <style name="Whaless.Widget.Toolbar.Default"/>
     
-    <style name="Joy.Widget.Toolbar.NoNavigate">
+    <style name="Whaless.Widget.Toolbar.NoNavigate">
         <item name="navigationIcon">@null</item>
     </style>
     
-    <style name="Joy.Widget.Toolbar.Button"/>
+    <style name="Whaless.Widget.Toolbar.Button"/>
     
-    <style name="Joy.Widget.Toolbar.Button.Navigate" parent="Widget.AppCompat.Toolbar.Button.Navigation">
+    <style name="Whaless.Widget.Toolbar.Button.Navigate" parent="Widget.AppCompat.Toolbar.Button.Navigation">
         <!-- navigation icon width -->
         <item name="android:minWidth">@dimen/size_36</item>
         <item name="android:scaleType">centerInside</item>
         <!--<item name="android:paddingRight">@dimen/size_20</item>-->
     </style>
     
-    <style name="Joy.Widget.Toolbar.OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+    <style name="Whaless.Widget.Toolbar.OverflowMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
         <item name="overlapAnchor">false</item>
         <item name="android:dropDownWidth">wrap_content</item>
     </style>
@@ -243,11 +243,11 @@
     <!-- 首页相关style -->
     <!-- 首页相关style -->
     <!-- 首页相关style -->
-    <style name="Joy.Widget.Main"/>
+    <style name="Whaless.Widget.Main"/>
     
-    <style name="Joy.Widget.Main.Tab"/>
+    <style name="Whaless.Widget.Main.Tab"/>
     
-    <style name="Joy.Widget.Main.Tab.Layout" parent="Joy.Widget.Button.Default">
+    <style name="Whaless.Widget.Main.Tab.Layout" parent="Whaless.Widget.Button.Default">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:layout_weight">1</item>
@@ -256,44 +256,44 @@
         <item name="android:orientation">vertical</item>
     </style>
     
-    <style name="Joy.Widget.Main.Tab.Icon">
+    <style name="Whaless.Widget.Main.Tab.Icon">
         <item name="android:layout_width">@dimen/size_20</item>
         <item name="android:layout_height">@dimen/size_20</item>
         <item name="android:scaleType">centerInside</item>
         <item name="android:padding">@dimen/size_1</item>
     </style>
     
-    <style name="Joy.Widget.Main.Tab.Text">
+    <style name="Whaless.Widget.Main.Tab.Text">
         <item name="android:padding">0dp</item>
         <item name="android:layout_marginTop">@dimen/size_5</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textAppearance">@style/Joy.TextAppearance.Small2</item>
+        <item name="android:textAppearance">@style/Whaless.TextAppearance.Small2</item>
         <item name="android:textColor">@color/colorTextGreyLight</item>
     </style>
     <!-- 首页相关style -->
     <!-- 首页相关style -->
     <!-- 首页相关style -->
     
-    <style name="Joy.Widget.Layout"/>
+    <style name="Whaless.Widget.Layout"/>
     
     <!-- 灰色背景条目 -->
-    <style name="Joy.Widget.Layout.ItemDecoration"/>
+    <style name="Whaless.Widget.Layout.ItemDecoration"/>
     
-    <style name="Joy.Widget.Layout.ItemDecoration.Default">
+    <style name="Whaless.Widget.Layout.ItemDecoration.Default">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/dimen_item_decoration</item>
         <item name="android:background">@drawable/draw_shape_item_decoration</item>
     </style>
     
-    <style name="Joy.Widget.Layout.ItemDetail" parent="@style/Joy.Widget.Button.Rectangle">
+    <style name="Whaless.Widget.Layout.ItemDetail" parent="@style/Whaless.Widget.Button.Rectangle">
         <item name="android:paddingLeft">@dimen/size_15</item>
         <item name="android:paddingRight">@dimen/size_15</item>
         <item name="android:layout_height">@dimen/size_50</item>
     </style>
     
-    <style name="Joy.Widget.Layout.ItemDetail.Name" parent="@style/Joy.Widget.Text.Double">
-        <item name="android:textAppearance">@style/Joy.TextAppearance.Middle.Primary</item>
+    <style name="Whaless.Widget.Layout.ItemDetail.Name" parent="@style/Whaless.Widget.Text.Double">
+        <item name="android:textAppearance">@style/Whaless.TextAppearance.Middle.Primary</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">@dimen/size_45</item>
         <item name="android:gravity">center_vertical</item>
@@ -301,8 +301,8 @@
         <item name="android:maxWidth">@dimen/size_75</item>
     </style>
     
-    <style name="Joy.Widget.Layout.ItemDetail.Text" parent="@style/Joy.Widget.Text.Single">
-        <item name="android:textAppearance">@style/Joy.TextAppearance.Middle</item>
+    <style name="Whaless.Widget.Layout.ItemDetail.Text" parent="@style/Whaless.Widget.Text.Single">
+        <item name="android:textAppearance">@style/Whaless.TextAppearance.Middle</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_marginLeft">@dimen/size_75</item>
@@ -310,8 +310,8 @@
         <item name="android:layout_centerVertical">true</item>
     </style>
     
-    <style name="Joy.Widget.Layout.ItemDetail.Input" parent="@style/Joy.Widget.Input.Default">
-        <item name="android:textAppearance">@style/Joy.TextAppearance.Middle</item>
+    <style name="Whaless.Widget.Layout.ItemDetail.Input" parent="@style/Whaless.Widget.Input.Default">
+        <item name="android:textAppearance">@style/Whaless.TextAppearance.Middle</item>
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">@dimen/size_45</item>
         <item name="android:layout_marginLeft">@dimen/size_75</item>

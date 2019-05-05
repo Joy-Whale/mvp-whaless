@@ -1,3 +1,4 @@
-<resources>
-    <string name="app_name">My Application</string>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">mvp-whaless demo</string>
+    <string name="user_sign_in">Sign In</string>
 </resources>
