@@ -1,0 +1,48 @@
+android {
+    def buildConfig = rootProject.extensions.getByName("ext")
+
+    compileSdkVersion buildConfig["androidCompileSdkVersion"]
+    buildToolsVersion buildConfig["androidBuildToolsVersion"]
+    defaultConfig {
+        minSdkVersion buildConfig["androidMinSdkVersion"]
+        targetSdkVersion buildConfig["androidTargetSdkVersion"]
+        versionCode buildConfig["versionCode"]
+        versionName buildConfig["versionName"]
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['src/main/jniLibs']
+        }
+    }
+
+    repositories {
+        flatDir {
+            dirs 'src/main/libs'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    aaptOptions {
+        cruncherEnabled false
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    dexOptions {
+        preDexLibraries true
+        javaMaxHeapSize "4g"
+    }
+}
+
+dependencies {
+    api fileTree(dir: 'libs', include: '*.jar', exclude: 'android-support-*.jar')
+}
+
+//  apply from: '../_build/app-config-android.gradle'

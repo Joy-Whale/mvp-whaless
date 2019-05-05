@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 按钮默认背景效果 -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_enabled="false">
+        <shape>
+            <solid android:color="@color/color_background_light_disabled"/>
+        </shape>
+    </item>
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="@color/color_background_light_pressed"/>
+        </shape>
+    </item>
+    <item android:drawable="@drawable/draw_shape_background_light_default"/>
+</selector>

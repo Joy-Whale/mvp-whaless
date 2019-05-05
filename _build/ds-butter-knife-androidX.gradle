@@ -1,0 +1,11 @@
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+}
+
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    implementation trustyDependencies.butterKnifeAndroidX
+    annotationProcessor trustyDependencies.butterKnifeCompilerAndroidX
+}

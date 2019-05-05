@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="text_cancel">Cancel</string>
+    <string name="text_confirm">Confirm</string>
+
+    <string name="time_am_format" formatted="false">%s:%s am</string>
+    <string name="time_pm_format" formatted="false">%s:%s pm</string>
+</resources>

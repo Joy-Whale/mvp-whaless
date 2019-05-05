@@ -1,0 +1,9 @@
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    //
+    implementation trustyDependencies.retrofit
+    //
+    implementation trustyDependencies.retrofit_rxjava
+    //
+    implementation trustyDependencies.retrofit_fastJson
+}

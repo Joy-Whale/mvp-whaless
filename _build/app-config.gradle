@@ -1,0 +1,38 @@
+ext {
+    androidBuildToolsVersion = "28.0.3"
+    androidMinSdkVersion = 21
+    androidTargetSdkVersion = 28
+    androidCompileSdkVersion = 28
+
+    applicationId = "me.whaless.app"
+    versionCode = 1000
+    versionName = '1.0.0'
+
+    currentVersionCode = '1'
+    guideVersionCode = '1'
+
+    keyPath = '../_build/whaless.jks'
+    keyAliasRelease = 'whaless'
+    keyPasswordRelease = 'whaless'
+    storePasswordRelease = 'whaless'
+
+    // greenDao
+    greenDaoSchemaVersion = '1'
+    greenDaoPackage = 'com.joy.app.data.db'
+
+    channelId = 'google'
+
+    //  接口域名地址
+    httpHost = 'http://vpn.whales.zone/'
+    httpsHost = 'https://vpn.whales.zone/'
+    httpHostTest = 'http://192.168.3.14:3802/'
+    httpHostTest = 'http://172.21.51.80:3802/'
+    httpsHostTest = 'https://192.168.3.14:3803/'
+    httpsHostTest = 'https://172.21.51.80:3803/'
+
+    passwordMinLength = 8
+    passwordMinLengthTest = 6
+
+    passwordRegex = '^(?=.*[A-Za-z])(?=.*\\\\d)[A-Za-z\\\\d]{8,16}$'
+    passwordRegexTest = '[A-Za-z\\\\d]{6,16}'
+}

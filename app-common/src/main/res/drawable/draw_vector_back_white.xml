@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportHeight="72"
+    android:viewportWidth="72">
+    
+    <path
+        android:fillAlpha="1.00"
+        android:fillColor="#ffffff"
+        android:pathData="M 45.96 8.92 C 47.02 7.23 49.94 8.06 49.97 10.05 C 50.24 11.42 48.83 12.17 48.14 13.11 C 40.71 20.53 33.38 28.04 25.94 35.45 C 33.59 43.36 41.47 51.06 49.13 58.96 C 50.75 60.08 49.91 63.03 47.88 62.95 C 46.52 63.22 45.83 61.75 44.89 61.08 C 37.29 53.34 29.61 45.69 22.02 37.95 C 20.56 36.76 20.58 34.17 22.07 33.01 C 30.01 24.96 37.95 16.90 45.96 8.92 Z"
+        android:strokeAlpha="1.00"
+        android:strokeWidth="1"/>
+</vector>

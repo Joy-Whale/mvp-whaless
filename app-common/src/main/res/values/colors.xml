@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="colorWindowBackground">#f8f8f8</color>
+    <color name="colorPrimary">#fec128</color>
+    
+    <!-- ripple效果色 -->
+    <color name="colorRipple">#44000000</color>
+    <color name="colorRippleDark">#88000000</color>
+    <color name="colorRippleLight">#aaffffff</color>
+    
+    <color name="colorTextGrey">#333333</color>
+    <color name="colorTextGreyNeutral">#666666</color>
+    <color name="colorTextGreyLight">#999999</color>
+    
+    <color name="colorLineGrey">#efefef</color>
+    
+    <color name="color_background_light_disabled">#80ffffff</color>
+    <color name="color_background_light_pressed">#aa999999</color>
+    
+    
+    <color name="colorRandom1">#fec128</color>
+    <color name="colorRandom2">#699d7f</color>
+    <color name="colorRandom3">#7b91d0</color>
+    <color name="colorRandom4">#e9aacc</color>
+    <color name="colorRandom5">#c6bdaf</color>
+    <color name="colorRandom6">#fb8e8d</color>
+    
+    <integer-array name="arr_color_random">
+        <item>@color/colorRandom1</item>
+        <item>@color/colorRandom2</item>
+        <item>@color/colorRandom3</item>
+        <item>@color/colorRandom4</item>
+        <item>@color/colorRandom5</item>
+        <item>@color/colorRandom6</item>
+    </integer-array>
+</resources>

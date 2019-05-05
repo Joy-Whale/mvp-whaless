@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "27869667092",
+    "firebase_url": "https://whales-vpn-ss.firebaseio.com",
+    "project_id": "whales-vpn-ss",
+    "storage_bucket": "whales-vpn-ss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:27869667092:android:c7acfe3c20b51106",
+        "android_client_info": {
+          "package_name": "com.joy.app.vpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "27869667092-igvs368o914bn72mt9rgvuv52rlnk4oh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.joy.app.vpn",
+            "certificate_hash": "a39bfc840693dd7e8f7f316d64a8fdee8bda81c2"
+          }
+        },
+        {
+          "client_id": "27869667092-3ac18tjem6vls5iqfqjpqati9k930683.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRKP3Lfqa_KdVmKn6DtF9FdJ17k0COO1E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "27869667092-3ac18tjem6vls5iqfqjpqati9k930683.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

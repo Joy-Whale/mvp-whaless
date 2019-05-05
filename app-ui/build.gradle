@@ -1,0 +1,100 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+//apply plugin: 'kotlin-kapt'
+
+
+apply from: '../_build/app-config-android.gradle'
+
+apply from: '../_build/ds-androidX.gradle'
+apply from: '../_build/ds-butter-knife-androidX.gradle'
+apply from: '../_build/ds-glide-androidX.gradle'
+apply from: '../_build/ds-dagger.gradle'
+apply from: '../_build/ds-test-androidX.gradle'
+
+android {
+    def buildConfig = rootProject.extensions.getByName("ext")
+    // 打包时间
+    def releaseTime = new Date().format("yyyy_MM_dd", TimeZone.getTimeZone("UTC"))
+    signingConfigs {
+        release {
+            keyAlias buildConfig["keyAliasRelease"]
+            keyPassword buildConfig["keyPasswordRelease"]
+            storeFile file(buildConfig['keyPath'])
+            storePassword buildConfig["storePasswordRelease"]
+        }
+    }
+
+    defaultConfig {
+        multiDexEnabled true
+        applicationId buildConfig["applicationId"]
+        versionCode buildConfig["versionCode"]
+        versionName buildConfig["versionName"]
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        // buglyId
+
+//        ndk {
+//            // 选择要添加的对应cpu类型的.so库。
+//            // 还可以添加 'x86', 'x86_64', 'mips', 'mips64'
+//            // abiFilters 'armeabi'
+//            abiFilters 'armeabi-v7a'
+//            abiFilters 'arm64-v8a'
+//            abiFilters 'x86'
+//            abiFilters 'x86_64'
+//        }
+
+        applicationVariants.all { variant ->
+            variant.outputs.all {
+                if (variant.buildType.name == "release")
+                    outputFileName = "WhalesVpn_${variant.versionName}_${variant.versionCode.toString()}_${variant.flavorName}_${variant.buildType.name}_${releaseTime}.apk"
+            }
+        }
+    }
+    buildTypes {
+        release {
+            debuggable false
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        debug {
+            debuggable true
+            minifyEnabled true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/atomicfu.kotlin_module'
+    }
+}
+
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    implementation trustyDependencies.rxJava
+    implementation trustyDependencies.rxAndroid
+    implementation trustyDependencies.rxBus
+    implementation trustyDependencies.okhttp
+
+    implementation 'com.airbnb.android:lottie:3.0.0'
+
+    // DEX分包
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    implementation project(':app-common')
+    implementation project(':app-data')
+    implementation project(':app-domain')
+    implementation project(':app-presentation')
+}
+
+// 默认不运行AndroidTest、Test
+tasks.whenTaskAdded { task ->
+    if (task.name.contains('AndroidTest') || task.name.contains('Test')) {
+        task.enabled = false
+    }
+}
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="error_net_time_out">网络超时，请重试</string>
+    <string name="error_unknown_net">网络错误，未知错误</string>
+    
+    <string name="error_input_empty_search">搜索内容不能为空</string>
+    <string name="error_input_empty">不能为空</string>
+    <string name="error_input_empty_title">标题不能为空</string>
+    <string name="error_input_account">请输入用户名</string>
+    <string name="error_input_password">请输入密码</string>
+    <string name="error_input_password_success">新旧密码不能一致</string>
+    <string name="error_request_vpn_permission">请求VPN权限失败</string>
+    
+    <string name="error_input_account_format">请输入正确的用户名</string>
+    <string name="error_input_password_length">密码不能少于8位</string>
+    <string name="error_input_password_format">密码格式不正确</string>
+    <string name="error_input_password_old">请输入旧密码</string>
+    <string name="error_input_password_again">两次输入的密码不一样</string>
+    <string name="error_input_code">请输入验证码</string>
+    <string name="error_input_receiver">收件人信息不完整</string>
+    <string name="error_input_comment">评论内容不能为空</string>
+    <string name="error_input_comment_length">最多150个字</string>
+    <string name="error_input_danmu_length">最多30个字</string>
+    <string name="error_input_empty_topic_identity">身份不能为空</string>
+    <string name="error_input_empty_topic_vote_option">选项内容不能为空</string>
+    <string name="error_identity_empty">请选择一个身份</string>
+    <string name="error_input_receiver_mobile_format">请输入正确的收件人手机号</string>
+    <string name="error_input_receiver_name">请输入收件人名称</string>
+    <string name="error_input_receiver_mobile">请输入收件人手机号</string>
+    <string name="error_input_receiver_address">请输入收件人地址</string>
+    
+    <string name="error_collect">操作失败</string>
+    
+    <string name="success_code_success">验证码发送成功</string>
+    <string name="success_upload_password">密码修改成功，请重新登录</string>
+    <string name="success_upload_avatar">头像上传成功</string>
+    <string name="success_comment">评论成功</string>
+    <string name="success_collect">已收藏</string>
+    <string name="success_create_live">创建成功</string>
+    <string name="success_cancel_collect">取消收藏</string>
+    <string name="success_topic_publish">发布成功</string>
+    <string name="success_register">注册成功</string>
+    <string name="success_article_complain">举报成功，我们会尽快处理</string>
+    <string name="success_reset_pwd">重置密码成功</string>
+    <string name="success_feedback">感谢反馈！我们已收到您的宝贵意见！</string>
+    <string name="success_odds_betting">下注成功</string>
+    <string name="success_banking">抢庄成功</string>
+    <string name="success_vip_update">您已成功升级为SVIP套餐</string>
+    <string name="success_vip_enable">支付成功</string>
+    
+    <string name="success_focus">关注成功</string>
+    <string name="success_focus_cancel">取消关注</string>
+    
+    <string name="success_exchanged">兑换成功</string>
+    <string name="error_exchanged">兑换失败</string>
+    
+    <string name="success_operate">操作成功</string>
+    
+    <string name="version_newest">已经是最新版本</string>
+</resources>

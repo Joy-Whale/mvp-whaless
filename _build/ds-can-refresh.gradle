@@ -1,0 +1,5 @@
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    implementation trustyDependencies.canRefresh
+    implementation trustyDependencies.canRefreshRecycler
+}

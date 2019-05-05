@@ -1,0 +1,62 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+
+apply from: '../_build/app-config-android.gradle'
+
+apply from: '../_build/ds-androidX.gradle'
+apply from: '../_build/ds-retrofit.gradle'
+apply from: '../_build/ds-test-androidX.gradle'
+
+apply from: '../_build/ds-dagger.gradle'
+
+//greendao {
+//    def buildConfig = rootProject.extensions.getByName("ext")
+//
+//    schemaVersion = buildConfig["greenDaoSchemaVersion"]
+//    daoPackage = buildConfig["greenDaoPackage"]
+//}
+
+android {
+    def buildConfig = rootProject.extensions.getByName("ext")
+
+    // 去除okhttp3
+//    configurations {
+//        all*.exclude group: 'com.squareup.okhttp3', module: 'okhttp'
+//    }
+
+    buildTypes {
+        release {
+            //  fields
+            buildConfigField("String", "HTTPS_HOST", '"' + buildConfig["httpsHost"].toString() + '"')
+        }
+
+        debug {
+            //  fields
+            buildConfigField("String", "HTTPS_HOST", '"' + buildConfig["httpsHostTest"].toString() + '"')
+        }
+    }
+    publishNonDefault true
+
+}
+
+def roomVersion = '2.0.0'
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    //
+    implementation trustyDependencies.fastJson
+    //
+    implementation trustyDependencies.rxJava
+
+    implementation 'androidx.preference:preference:1.0.0'
+    implementation "androidx.room:room-runtime:$roomVersion"
+    kapt "androidx.room:room-compiler:$roomVersion"
+
+    // JunitTest
+    testImplementation "androidx.room:room-testing:$roomVersion"
+    testImplementation 'apache-httpclient:commons-httpclient:3.1'
+
+    implementation project(':app-common')
+    implementation project(':app-domain')
+}

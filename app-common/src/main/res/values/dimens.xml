@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="dimen_text_xxlarge">@dimen/text_25_0</dimen>
+    <dimen name="dimen_text_xlarge">@dimen/text_21_0</dimen>
+    <dimen name="dimen_text_large">@dimen/text_19_0</dimen>
+    <dimen name="dimen_text_middle">@dimen/text_15_0</dimen>
+    <dimen name="dimen_text_small">@dimen/text_12_0</dimen>
+    <dimen name="dimen_text_small2">@dimen/text_10_0</dimen>
+    <dimen name="dimen_text_small3">@dimen/text_8_0</dimen>
+    
+    <dimen name="dimen_item_decoration">@dimen/size_10</dimen>
+</resources>

@@ -1,0 +1,36 @@
+apply plugin: 'com.android.library'
+
+apply from: '../_build/app-config-android.gradle'
+
+apply from: '../_build/ds-androidX.gradle'
+apply from: '../_build/ds-dagger.gradle'
+apply from: '../_build/ds-test-androidX.gradle'
+
+android {
+    def buildConfig = rootProject.extensions.getByName("ext")
+
+    buildTypes {
+        release {
+            buildConfigField("int", "PASSWORD_MIN_LENGTH", buildConfig["passwordMinLength"].toString())
+            buildConfigField("String", "PASSWORD_REGEX", '"' + buildConfig["passwordRegex"].toString() + '"')
+        }
+
+        debug {
+            buildConfigField("int", "PASSWORD_MIN_LENGTH", buildConfig["passwordMinLengthTest"].toString())
+            buildConfigField("String", "PASSWORD_REGEX", '"' + buildConfig["passwordRegexTest"].toString() + '"')
+        }
+    }
+    publishNonDefault true
+}
+
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    //
+    implementation trustyDependencies.rxAndroid
+    implementation trustyDependencies.rxBus
+    implementation trustyDependencies.retrofit
+
+    implementation project(':app-common')
+    implementation project(':app-data')
+    implementation project(':app-domain')
+}

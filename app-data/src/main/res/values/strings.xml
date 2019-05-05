@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="error_net_time_out">网络超时，请重试</string>
+    <string name="error_unknown_net">网络错误，未知错误</string>
+</resources>

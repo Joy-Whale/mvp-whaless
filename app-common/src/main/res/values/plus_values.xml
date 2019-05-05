@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+
+    <string name="plus_refresh_footer_loading">加载中</string>
+    <string name="plus_refresh_footer_error">加载失败</string>
+    <string name="plus_refresh_footer_nomore">没有更多了</string>
+
+    <string name="recycler_hint_error">加载更多失败</string>
+    <string name="recycler_hint_empty">没有内容</string>
+    <string name="recycler_hint_head_time">上次更新：</string>
+
+    <string name="cube_ptr_hours_ago"> 小时之前</string>
+    <string name="cube_ptr_last_update">上次更新: </string>
+    <string name="cube_ptr_minutes_ago"> 分钟之前</string>
+    <string name="cube_ptr_pull_down">下拉</string>
+    <string name="cube_ptr_pull_down_to_refresh">下拉刷新</string>
+    <string name="cube_ptr_refresh_complete">更新完成.</string>
+    <string name="cube_ptr_refreshing">加载中...</string>
+    <string name="cube_ptr_release_to_refresh">释放刷新</string>
+    <string name="cube_ptr_seconds_ago"> 秒之前</string>
+
+    <string name="plus_list_empty_hint">这儿什么都没有</string>
+    <string name="plus_list_error_hint">网络出错，点击重试</string>
+
+    <string-array name="ptr_recycler_refresh_hint">
+        <item>下拉刷新</item>
+        <item>松开刷新数据</item>
+        <item>正在加载•••</item>
+        <item>加载完成</item>
+    </string-array>
+
+    <declare-styleable name="PlusRefreshLayout">
+        <attr name="plus_enabled_up" format="boolean"/>
+        <attr name="plus_enabled_down" format="boolean"/>
+        <attr name="plus_style_up" format="enum">
+            <enum name="classic" value="0"/>
+            <enum name="upper" value="1"/>
+            <enum name="lower" value="2"/>
+            <enum name="mid" value="3"/>
+        </attr>
+        <attr name="plus_style_down" format="enum">
+            <enum name="classic" value="0"/>
+            <enum name="upper" value="1"/>
+            <enum name="lower" value="2"/>
+            <enum name="mid" value="3"/>
+        </attr>
+        <attr name="plus_friction" format="float"/>
+        <attr name="plus_duration" format="integer"/>
+        <attr name="plus_smooth_length" format="integer"/>
+        <attr name="plus_smooth_duration" format="integer"/>
+        <attr name="plus_bg_up" format="reference"/>
+        <attr name="plus_bg_down" format="reference"/>
+        <attr name="plus_is_coo" format="boolean"/>
+    </declare-styleable>
+
+    <dimen name="refresh_height_google">100dp</dimen>
+    <dimen name="refresh_height_rotate">50dp</dimen>
+    <dimen name="refresh_height_yalantis">136dp</dimen>
+    <item name="plus_content_view" type="id"/>
+    <item name="plus_refresh_footer" type="id"/>
+    <item name="plus_refresh_header" type="id"/>
+    <item name="plus_scroll_view" type="id"/>
+    <item name="plus_recycler_footer" type="id"/>
+
+    <color name="google_blue">#4285F4</color>
+    <color name="google_green">#34A853</color>
+    <color name="google_red">#EA4335</color>
+    <color name="google_yellow">#FBBC05</color>
+    <color name="shadow">#25808080</color>
+
+    <declare-styleable name="GoogleCircleProgressView">
+        <attr name="gcp_inner_radius" format="dimension"/>
+        <attr name="gcp_background_color" format="color"/>
+        <attr name="gcp_progress_color" format="color"/>
+        <attr name="gcp_progress_stoke_width" format="dimension"/>
+        <attr name="gcp_show_arrow" format="boolean"/>
+        <attr name="gcp_enable_circle_background" format="boolean"/>
+        <attr name="gcp_arrow_width" format="dimension"/>
+        <attr name="gcp_arrow_height" format="dimension"/>
+        <attr name="gcp_progress" format="integer"/>
+        <attr name="gcp_max" format="integer"/>
+        <attr name="gcp_progress_text_size" format="dimension"/>
+        <attr name="gcp_progress_text_color" format="color"/>
+        <attr name="gcp_progress_text_visibility" format="enum">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>

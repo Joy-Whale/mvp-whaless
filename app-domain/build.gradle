@@ -1,0 +1,12 @@
+apply plugin: 'com.android.library'
+apply from: '../_build/ds-test-androidX.gradle'
+
+apply from: '../_build/app-config-android.gradle'
+
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+
+    implementation trustyDependencies.javaxInject
+    implementation trustyDependencies.logger
+    implementation trustyDependencies.rxJava
+}

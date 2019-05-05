@@ -1,0 +1,15 @@
+dependencies {
+    def androidDependencies = rootProject.ext.androidSupportDependencies
+    
+    implementation androidDependencies.annotations
+    implementation androidDependencies.appcompat_v4
+    implementation androidDependencies.appcompat_v7
+    implementation androidDependencies.cardview
+    implementation androidDependencies.design
+    implementation androidDependencies.gridlayout
+    implementation androidDependencies.percentlayout
+    implementation androidDependencies.recyclerview
+    implementation androidDependencies.vector
+    implementation androidDependencies.vectorAnimated
+    implementation androidDependencies.constraintlayout
+}

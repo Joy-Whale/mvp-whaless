@@ -1,0 +1,16 @@
+apply plugin: 'com.android.library'
+apply from: '../_build/app-config-android.gradle'
+
+apply from: '../_build/ds-androidX.gradle'
+apply from: '../_build/ds-test-androidX.gradle'
+
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    implementation trustyDependencies.diskCache
+    implementation trustyDependencies.fastJson
+    implementation trustyDependencies.logger
+    implementation trustyDependencies.rxJava
+    implementation trustyDependencies.rxAndroid
+    api 'com.tbruyelle.rxpermissions:rxpermissions:0.9.4@aar'
+
+}

@@ -1,0 +1,22 @@
+android {
+
+    defaultConfig {
+//        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    testOptions { // <-- You need this
+        unitTests {
+            returnDefaultValues = true
+        }
+    }
+}
+
+dependencies {
+    androidTestImplementation "androidx.room:room-testing:2.0.0"
+    androidTestImplementation "androidx.test:runner:1.1.1"
+    androidTestImplementation "androidx.test.espresso:espresso-core:3.1.1"
+    androidTestImplementation 'androidx.test.ext:junit-ktx:1.1.0'
+
+    testImplementation 'junit:junit:4.12'
+}

@@ -1,0 +1,7 @@
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    implementation trustyDependencies.glideAndroidX
+    annotationProcessor trustyDependencies.glide_compiler
+    implementation trustyDependencies.glide_transform
+    implementation trustyDependencies.glide_okhttp
+}

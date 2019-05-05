@@ -1,0 +1,9 @@
+dependencies {
+    def trustyDependencies = rootProject.ext.trustyDependencies
+    //
+    implementation trustyDependencies.dagger
+    //
+    annotationProcessor trustyDependencies.daggerCompiler
+    //
+    implementation trustyDependencies.javaxAnnotation
+}
